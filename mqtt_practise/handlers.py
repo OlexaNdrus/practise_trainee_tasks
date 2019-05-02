@@ -2,6 +2,8 @@ import time
 import paho.mqtt.client as paho
 
 BROKER = 'test.mosquitto.org'
+BROKER = '10.6.0.62'
+BROKER = '127.0.0.1'
 
 def on_message(client, userdata, message):
     if not(client,userdata,message):
